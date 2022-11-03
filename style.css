@@ -1,0 +1,41 @@
+html {
+    font-family: comic sans ms;
+    zoom: 0.8;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 10%;
+}
+
+#container {
+    text-align: center;
+}
+
+#container table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inpt-boxes {
+    zoom: 2;
+}
+
+.word-box {
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.letterTable {
+    font-size: 200%;
+}
+
+.letter:hover {
+    transition: 0.1s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
